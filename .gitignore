@@ -1,0 +1,33 @@
+# Never commit these (assignment rules)
+.env
+.env.*
+*.secret
+secrets/
+Dockerfile
+.venv/
+venv/
+env/
+
+# Confidentiality: do not post before 15 Nov 2026
+PROBLEM_STATEMENT.docx
+prd.md
+
+# Local data dumps
+*.bson
+dump/
+sample_data/*.bson
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git (nested repo)
+.git/
