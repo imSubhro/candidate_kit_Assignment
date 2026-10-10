@@ -8,9 +8,10 @@ Dockerfile
 venv/
 env/
 
-# Confidentiality: do not post before 15 Nov 2026
-PROBLEM_STATEMENT.docx
+
+# PROBLEM_STATEMENT.docx
 prd.md
+previous.md
 
 # Local data dumps
 *.bson
